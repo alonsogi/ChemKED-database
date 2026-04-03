@@ -2,8 +2,8 @@
 file-authors:
   - name: Ivette Alonso Garcia
     ORCID: 0009-0007-4064-7836
-file-version:
-chemked-version:
+file-version: 0
+chemked-version: 0.4.1
 reference:
   doi: 10.1016/j.heliyon.2024.e34204 
   authors:
@@ -40,7 +40,7 @@ common-properties:
         amount:
           - 0.78588
   ignition-type: &ign
-    target: OH*
+    target: pressure; OH*
     type: d/dt max 
 datapoints:
   - temperature:
